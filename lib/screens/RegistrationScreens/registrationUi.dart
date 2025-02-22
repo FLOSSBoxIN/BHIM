@@ -132,7 +132,7 @@ class _RegisterState extends State<Register> {
               child: Column(
                 children: <Widget>[
                   Text(
-                    "9012218994",
+                    "9876543210",
                     style: TextStyle(color: Colors.black, fontSize: 18.0),
                   ),
                   Text(
@@ -255,7 +255,7 @@ class _RegisterState extends State<Register> {
               if (nameController.text != '') {
                 registerUser(
                   nameController.value.text,
-                  "9012218994",
+                  "9876543210",
                   nameController.value.text.toLowerCase().replaceAll(' ', '') +
                       "@upi",
                 );

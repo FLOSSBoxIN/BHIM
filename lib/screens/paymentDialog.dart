@@ -83,12 +83,12 @@ class _PaymentDialogState extends State<PaymentDialog> {
                     widget.intent == 'send_money'
                         ? sendMoneyTransaction(
                             widget.person,
-                            '9012218994',
+                            '9876543210',
                             widget.amount,
                           )
                         : requestMoneyTransaction(
                             widget.person,
-                            '9012218994',
+                            '9876543210',
                             widget.amount,
                           );
                     Navigator.of(context).pop();
